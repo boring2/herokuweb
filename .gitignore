@@ -1,0 +1,10 @@
+venv
+*.pyc
+staticfiles
+.env
+bin
+build
+lib
+.Python
+.project
+.pydevproject

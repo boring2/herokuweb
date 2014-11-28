@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:'微软雅黑' '宋体';
+	vertical-align:baseline;
+	background:url(../images/bg.jpg);
+	
+}
+#toptext{
+	margin:20px auto 0 auto;
+	font-family:'微软雅黑' '宋体';
+	width:180px;
+	height:100px;
+	font-size:40px;
+
+}
+
+#header2{
+	margin:0 auto;
+	font-family:"微软雅黑";
+	width:180px;
+	font-size:15px;
+
+}
+
+#div_search{
+	margin:0 auto;
+	width:400px;
+	
+}
+#inputsearch{
+	height:28px;
+	width:220px;
+	font-size:15px;
+}
+#inputsubmit{
+	height:30px;
+	width:60px;
+	font-size:15px;
+	font-family:"微软雅黑";
+	color:white;
+	background:url(../images/button.jpg);
+}
+#inputform{
+	margin:0px auto;
+	width:300px;
+}
+
+#footer{
+	bottom:0; 
+	left:42%;
+	position:absolute;
+	
+}
+
+.wenzi{
+	color:blue;
+}

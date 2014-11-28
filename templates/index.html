@@ -1,0 +1,25 @@
+$def with (postcontent)
+$var cssfile: /static/css/indexcss.css
+$var ico: /static/favicon.ico
+
+<div id="toptext">
+<h1 style="font-family:'微软雅黑';">搜网</h1>
+</div>
+<div id="header2">
+<p>请输入你要搜索的网址</p>
+</div>
+<div id='div_search'>
+<form action="/" method="post" id="inputform">
+<input type="text" name="searchinput" id="inputsearch"/>
+<input type="submit" value="确定" id="inputsubmit"/>
+</form>
+</div>
+
+<div id="pcon" style="font-size:20px;left:38%;position:absolute;font-family:'微软雅黑';">
+$if postcontent:
+	<p><span class="wenzi" style="color:blue">标题: </span>$postcontent['title']<br/>
+	<span class="wenzi" style="color:blue">网站编码: </span>$postcontent['charset']<br/>
+	<span class="wenzi" style="color:blue">网站关键词: </span>$postcontent['keywords']<br/>
+	<span class="wenzi" style="color:blue">您的IP: </span>$postcontent['yourip']
+	</p>
+</div>
